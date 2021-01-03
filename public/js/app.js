@@ -1995,10 +1995,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -19899,10 +19895,6 @@ var render = function() {
             _vm._v(" "),
             _c("td", [_vm._v(_vm._s(post.description))]),
             _vm._v(" "),
-            _c("td", [_vm._v(_vm._s(post.created_at))]),
-            _vm._v(" "),
-            _c("td", [_vm._v(_vm._s(post.updated_at))]),
-            _vm._v(" "),
             _c("td", [
               _c(
                 "div",
@@ -19952,10 +19944,6 @@ var staticRenderFns = [
         _c("th", [_vm._v("Title")]),
         _vm._v(" "),
         _c("th", [_vm._v("Description")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Created At")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Updated At")]),
         _vm._v(" "),
         _c("th", [_vm._v("Actions")])
       ])
@@ -35377,17 +35365,6 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./resources/css/app.css":
-/*!*******************************!*\
-  !*** ./resources/css/app.css ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "./resources/js/AddPost.vue":
 /*!**********************************!*\
   !*** ./resources/js/AddPost.vue ***!
@@ -35768,15 +35745,26 @@ var routes = [{
 
 /***/ }),
 
+/***/ "./resources/sass/app.scss":
+/*!*********************************!*\
+  !*** ./resources/sass/app.scss ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!***********************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/css/app.css ***!
-  \***********************************************************/
+/*!*************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\Users\Jion\Desktop\laravel-vue-crud-spa-example\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Jion\Desktop\laravel-vue-crud-spa-example\resources\css\app.css */"./resources/css/app.css");
+module.exports = __webpack_require__(/*! C:\Users\Jion\Desktop\laravel-vue-crud-spa-example\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
