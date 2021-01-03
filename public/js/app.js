@@ -35775,8 +35775,8 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/jion/Downloads/laravel-vue-crud-spa-example/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/jion/Downloads/laravel-vue-crud-spa-example/resources/css/app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\Jion\Desktop\laravel-vue-crud-spa-example\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Jion\Desktop\laravel-vue-crud-spa-example\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
