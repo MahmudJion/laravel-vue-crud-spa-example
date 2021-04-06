@@ -2015,8 +2015,7 @@ __webpack_require__.r(__webpack_exports__);
       this.axios["delete"]("http://localhost:8000/api/post/delete/".concat(id)).then(function (response) {
         var i = _this2.posts.map(function (item) {
           return item.id;
-        }).indexOf(id); // find index of your object
-
+        }).indexOf(id);
 
         _this2.posts.splice(i, 1);
       });
@@ -2035,10 +2034,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
 //
 //
 //
@@ -19975,8 +19970,6 @@ var render = function() {
     "div",
     { staticClass: "container" },
     [
-      _vm._m(0),
-      _vm._v(" "),
       _c(
         "nav",
         { staticClass: "navbar navbar-expand-lg navbar-light bg-light" },
@@ -20011,25 +20004,7 @@ var render = function() {
     1
   )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "text-center",
-        staticStyle: { margin: "20px 0px 20px 0px" }
-      },
-      [
-        _c("span", { staticClass: "text-secondary" }, [
-          _vm._v("Laravel Vue CRUD Example")
-        ])
-      ]
-    )
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -35763,8 +35738,8 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Jion\Desktop\laravel-vue-crud-spa-example\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Jion\Desktop\laravel-vue-crud-spa-example\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Jion\Desktop\git_personal\laravel-vue-crud-spa-example\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Jion\Desktop\git_personal\laravel-vue-crud-spa-example\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

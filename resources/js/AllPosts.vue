@@ -48,7 +48,7 @@
                 this.axios
                     .delete(`http://localhost:8000/api/post/delete/${id}`)
                     .then(response => {
-                        let i = this.posts.map(item => item.id).indexOf(id); // find index of your object
+                        let i = this.posts.map(item => item.id).indexOf(id);
                         this.posts.splice(i, 1)
                     });
             }
